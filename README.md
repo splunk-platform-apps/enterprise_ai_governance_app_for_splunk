@@ -1,4 +1,12 @@
-# enterprise_ai_governance_app_for_splunk
+# Enterprise AI Governance App for Splunk
+
+This App provides a comprehensive set of dashboards that work seamlessly with the [Enterprise AI Governance Add-on for Splunk](https://github.com/splunk-platform-apps/enterprise_ai_governance_add-on_for_splunk). It enables organizations to monitor and manage AI across multiple dimensions:
+
+- **AI Governance Overview** — High-level visibility into AI usage and compliance
+- **AI Security Audit** — Track security events and vulnerabilities in AI systems
+- **AI Usage & Cost Monitoring** — Understand consumption patterns and manage costs
+- **Self-Hosted & Open-Source Models** — Monitor and govern non-commercial AI deployments
+- **AI Compliance & Directory** — Maintain compliance standards and model inventory
 
 ## Getting Started
 

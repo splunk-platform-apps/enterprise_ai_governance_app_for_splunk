@@ -1,0 +1,25 @@
+{
+    "pages": {
+        "dashboard": {
+            "panels": [
+                {
+                    "name": "default"
+                }
+            ]
+        }
+    },
+    "meta": {
+        "name": "ai_governance_app_for_splunk",
+        "restRoot": "ai_governance_app_for_splunk",
+        "version": "1.0.0",
+        "displayName": "Enterprise AI Governance App for Splunk",
+        "schemaVersion": "0.0.10",
+        "navColor": "#5C6BC0",
+        "defaultView": "dashboard",
+        "checkForUpdates": false,
+        "supportedThemes": [
+            "light",
+            "dark"
+        ]
+    }
+}
