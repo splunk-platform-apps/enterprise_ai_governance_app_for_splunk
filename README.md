@@ -2,20 +2,10 @@
 
 The Enterprise AI Governance App for Splunk provides dashboards, alerts, and search macros for data collected by the [Enterprise AI Governance Add-on for Splunk](https://github.com/splunk-platform-apps/enterprise_ai_governance_add-on_for_splunk). Install and configure it following [documentation](https://splunk-platform-apps.github.io/enterprise_ai_governance_add-on_for_splunk/) to guarantee full functionality of the Enterprise AI Governance App for Splunk.
 
-## Features
-
-- **Five dashboards** providing views across supported AI platforms:
-  | Dashboard | Content Details |
-  |---|---|
-  | **AI Governance Overview** (default) | Review activity, adoption, and data availability across providers. |
-  | **AI Security Audit** | Investigate sign-ins, administrative changes, API key events, and data movement. |
-  | **AI Usage & Cost Monitoring** | Explore token usage, spend, and adoption where providers supply that data. |
-  | **Self-Hosted & Open-Source Models** | Monitor server availability, model inventory, and runtime metrics. |
-  | **AI Compliance & Directory** | Review user lifecycle, directory data, and compliance-relevant activity. |
-
-- **Eight alerts** covering API key changes, admin or SSO configuration changes, data exports, new AI users, off-hours activity spikes, daily spend thresholds, new self-hosted models, and self-hosted servers going down.
-- **Eleven search macros** support the dashboards, alerts, and your own searches.
-
+The app provides:
+* **Five dashboards** to review and investigate activity, adoption, and data availability across providers as well as explore token usage whenever available from providers.
+* **Eight alerts** to notify security changes, data exports, user activity, and more.
+* **Eleven search macros** including cross-provider action macros to support the dashboards, alerts, and your own searches.
 
 ## Getting Started
 
