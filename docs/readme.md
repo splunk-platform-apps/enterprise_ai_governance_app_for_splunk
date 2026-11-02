@@ -126,6 +126,11 @@ Open the app to visualize data on the following dashboards:
 
 Tested against Splunk Enterprise XX.
 
+## Versions Supported
+
+* Splunk Cloud Platform.
+* Splunk Enterprise 9.3 and 10.x (developed and tested on Splunk Enterprise 10.4, standalone).
+
 ## Contributing
 
 See [CONTRIBUTING.md](https://github.com/splunk-platform-apps/.github/blob/main/.github/CONTRIBUTING.md) for details.
