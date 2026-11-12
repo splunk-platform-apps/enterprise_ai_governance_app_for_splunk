@@ -23,7 +23,7 @@
             "intendedAudience": "IT Professionals, Security Analysts, Compliance Teams"
         },
         "commonInformationModels": null,
-        "description": "Monitoring for Anthropic Claude Enterprise, OpenAI, Google Gemini (Workspace) and Microsoft 365 Copilot.",
+        "description": "Visualize data collected from Anthropic Claude Enterprise, OpenAI, Google Gemini (Workspace) and Microsoft 365 Copilot dashboards in Splunk.",
         "id": {
             "group": null,
             "name": "ai_governance_app_for_splunk",
