@@ -1,11 +1,17 @@
-import { defineConfig } from "eslint/config";
-import typescriptEslint from "@typescript-eslint/eslint-plugin";
-import globals from "globals";
-import tsParser from "@typescript-eslint/parser";
+import { createRequire } from "node:module";
+import { realpathSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import js from "@eslint/js";
-import { FlatCompat } from "@eslint/eslintrc";
+
+// Resolve packages from the ESLint installation running this config.
+const requireFromEslint = createRequire(realpathSync(process.argv[1]));
+
+const { defineConfig } = requireFromEslint("eslint/config");
+const typescriptEslint = requireFromEslint("@typescript-eslint/eslint-plugin");
+const globals = requireFromEslint("globals");
+const tsParser = requireFromEslint("@typescript-eslint/parser");
+const js = requireFromEslint("@eslint/js");
+const { FlatCompat } = requireFromEslint("@eslint/eslintrc");
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
