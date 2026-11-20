@@ -43,6 +43,9 @@ repos:
         types: [file]
         args: ['--fix']
         additional_dependencies:
+        -   "@eslint/js"
+        -   "@eslint/eslintrc"
+        -   "globals"
         -   "@typescript-eslint/parser"
         -   "@typescript-eslint/eslint-plugin"
 
